@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Model/lens checkpoints can be large. Keep .gitkeep so directory structure exists.
+Fitted-Jlens/*.pt
+results/**/*.pt
+results/**/*checkpoint*
+
+# Local clone of the upstream Jacobian Lens repository.
+jacobian-lens/

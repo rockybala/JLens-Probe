@@ -1,0 +1,6 @@
+torch
+transformers
+datasets
+huggingface_hub
+# Jacobian Lens. Install from the upstream repository if not available on PyPI.
+# jlens
