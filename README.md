@@ -154,10 +154,7 @@ Once the two local fitted lenses are available:
 python experiment_1_intermediate_recovery.py
 python experiment_2_direction_alignment.py
 python experiment_2b_sparse_concepts.py
-python experiment_3_safety_readout.py
 ```
-
-Experiment 3 is still exploratory and may find only the audit datasets that are present in the current upstream data release.
 
 ## Regenerating the README figures
 
