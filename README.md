@@ -83,7 +83,7 @@ JLens-Probe/
 └── results/
 ```
 
-The fitted `.pt` checkpoints are not committed because of their size. They can be generated with `fit_lens.py` or copied from a previous run.
+The fitted .pt checkpoints used in the experiments are included in Fitted-Jlens/ and tracked with Git LFS. This allows the reported experiments to be run directly without refitting the lenses. The WikiText-100 and Deception-100 lenses can also be regenerated using fit_lens.py.
 
 ## Installation
 
