@@ -68,7 +68,7 @@ DIRECTION_TOKEN_GROUPS = {
 # ------------------------------------------------------------------
 # Experiment 3: Section-5-style safety/alignment auditing readout
 # ------------------------------------------------------------------
-# The script recursively searches jacobian-lens/ for JSON filenames containing
+# Experiment 3 recursively searches the upstream Jacobian Lens data tree for JSON filenames containing
 # these hints. Keep aliases because repository/data filenames may use hyphens,
 # underscores, or abbreviated names.
 SAFETY_DATASET_HINTS = {

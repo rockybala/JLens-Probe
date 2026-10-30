@@ -1,8 +1,7 @@
 torch
-transformers
+transformers>=5.5
 datasets
 huggingface_hub
+jlens @ git+https://github.com/anthropics/jacobian-lens.git
 
-# The experiments also require the upstream Jacobian Lens package:
-# https://github.com/anthropics/jacobian-lens
-# Install it following the upstream repository instructions.
+matplotlib

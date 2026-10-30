@@ -13,3 +13,5 @@ results/**/*checkpoint*
 
 # Local clone of the upstream Jacobian Lens repository.
 jacobian-lens/
+# Work in progress / local experiments
+experiment_3_safety_readout.py

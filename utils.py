@@ -28,7 +28,7 @@ def load_model(model_name, dtype=torch.bfloat16, device=None):
 
     return model, tokenizer
 
-## load Anthropic's lens
+# Load a pretrained J-Lens checkpoint
 def load_lens(lens_repo, lens_file, revision=None):
     """
     Load a pre-fitted Jacobian Lens from Hugging Face or a local path.
@@ -109,11 +109,11 @@ def load_all_lenses(
     local_lens_files,
 ):
     """
-    Load the Anthropic pretrained lens and locally fitted lenses.
+    Load the pretrained WikiText-1000 lens and locally fitted lenses.
     """
     lenses = {}
 
-    # Anthropic N=1000 lens
+    # Pretrained WikiText N=1000 lens
     lenses["wikitext_1000"] = load_lens(
         lens_repo,
         lens_file,

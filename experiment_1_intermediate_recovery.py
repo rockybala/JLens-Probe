@@ -6,6 +6,8 @@ Experiment 1: Intermediate Concept Recovery
 
 import json
 from pathlib import Path
+
+from upstream_data import get_evaluation_dir
 from config import (
     MODEL_NAME,
     LENS_REPO,
@@ -40,7 +42,7 @@ from jlens import JacobianLens
 
 ROOT = Path(__file__).resolve().parent
 
-DATA_DIR = ROOT / "jacobian-lens" / "data" / "evaluations"
+DATA_DIR = get_evaluation_dir()
 RESULT_DIR = ROOT / "results" / "experiment_1"
 
 # Start small while debugging.

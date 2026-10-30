@@ -31,6 +31,8 @@ Anthropic's unpublished gradient-pursuit code.
 import json
 from pathlib import Path
 
+from upstream_data import get_evaluation_dir
+
 import torch
 import torch.nn.functional as F
 
@@ -54,7 +56,7 @@ from jlens.hooks import ActivationRecorder
 
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "jacobian-lens" / "data" / "evaluations"
+DATA_DIR = get_evaluation_dir()
 RESULT_DIR = ROOT / "results" / "experiment_2b"
 
 # Limit the default run to 10 examples because full-vocabulary pursuit is expensive.
