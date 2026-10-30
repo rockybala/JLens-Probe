@@ -7,7 +7,6 @@ venv/
 .ipynb_checkpoints/
 
 # Model/lens checkpoints can be large. Keep .gitkeep so directory structure exists.
-Fitted-Jlens/*.pt
 results/**/*.pt
 results/**/*checkpoint*
 
