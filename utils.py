@@ -114,7 +114,7 @@ def load_all_lenses(
     lenses = {}
 
     # Anthropic N=1000 lens
-    lenses["anthropic_1000"] = load_lens(
+    lenses["wikitext_1000"] = load_lens(
         lens_repo,
         lens_file,
         revision=lens_revision,

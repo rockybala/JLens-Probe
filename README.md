@@ -1,29 +1,76 @@
 # JLens-Probe
 
-**Testing the robustness of Jacobian Lens representations across fitting distributions, with a focus on safety-relevant concepts.**
+**How sensitive are Jacobian Lens representations to the distribution used to fit the lens?**
 
-This repository contains experiments built around the **Jacobian Lens (J-Lens)** for Qwen3.5-4B. The project asks a simple interpretability question:
+This project compares Jacobian lenses fitted on WikiText and deception-oriented data for Qwen3.5-4B. The aim is to test whether changing the fitting distribution changes the concepts exposed by the lens, while keeping the underlying language model fixed.
 
-> **How much does a J-Lens representation depend on the data distribution used to fit the lens?**
+The repository compares three lenses:
 
-To study this, the code compares three lenses applied to the **same underlying model activations**:
+- **WikiText-1000** — a public J-Lens checkpoint fitted on 1,000 WikiText examples and distributed through `neuronpedia/jacobian-lens`.
+- **WikiText-100** — a locally fitted lens using 100 WikiText examples.
+- **Deception-100** — a locally fitted lens using 100 deception-oriented examples.
 
-1. **Anthropic-1000** — a pretrained J-Lens fit on 1,000 WikiText examples.
-2. **Wiki-100** — a locally fitted lens using 100 WikiText examples.
-3. **Deception-100** — a locally fitted lens using 100 deception-oriented examples constructed from DeceptionBench/Qwen generations.
+Comparing WikiText-1000 with WikiText-100 provides a same-distribution, different-sample-size baseline. Comparing WikiText-100 with Deception-100 isolates the effect of changing the fitting distribution at matched sample count.
 
-The Wiki-100 comparison provides a small-data baseline: it helps distinguish changes caused by fitting on fewer examples from changes associated with a different fitting distribution. The Deception-100 comparison then asks whether fitting on safety-relevant data changes the concepts or directions exposed by the lens.
+## Experiments
 
-## Research questions
+### 1. Intermediate concept recovery
 
-The repository contains several complementary probes:
+`experiment_1_intermediate_recovery.py`
 
-- **Intermediate concept recovery:** Do the different fitted lenses recover the same known intermediate concepts in multi-hop reasoning prompts?
-- **Direction alignment:** For a fixed vocabulary concept and layer, how aligned are the corresponding J-Lens directions across fits?
-- **Sparse concept recovery:** Given the exact same residual activation, do different fitted lenses select the same sparse token concepts?
-- **Safety-relevant readout:** Do lenses fitted on different distributions differ when reading deception- or evaluation-awareness-related signals from alignment-audit prompts?
+Tests whether each lens recovers known intermediate concepts in multi-hop reasoning examples. For each example, the script measures the vocabulary rank of the target intermediate token across fitted layers and reports `pass@k`.
 
-The broader motivation is methodological: representation-based monitoring is only useful if we understand how robust the representation tool itself is to choices made during fitting.
+In the committed multihop results, all three lenses recover a substantial fraction of the same intermediate concepts. For example, `pass@20` is about 0.62 for WikiText-1000 and WikiText-100, and 0.65 for Deception-100. This experiment checks that refitting has not simply destroyed the basic J-Lens readout.
+
+![Intermediate concept recovery](results/experiment1.png)
+
+### 2. Vocabulary-linked direction alignment
+
+`experiment_2_direction_alignment.py`
+
+For token `v` and layer `l`, the J-Lens direction in source residual space is
+
+```text
+d_(v,l) = J_l^T w_v
+```
+
+where `w_v` is the model's unembedding vector for token `v`.
+
+The script compares the same token-linked direction across lenses using cosine similarity. The analysis includes generic, deception-related, and evaluation-awareness vocabulary.
+
+The WikiText-100 lens is already fairly aligned with WikiText-1000 at layer 0 (mean cosine about 0.81 across the configured vocabulary) and becomes very closely aligned in later layers. The Deception-100 lens differs much more strongly in early and middle layers: its mean cosine with WikiText-1000 is about 0.25 at layer 0 and 0.55 at layer 10, before increasing in later layers. These results suggest that fitting distribution can substantially affect the directions exposed by the lens, especially away from the final layers.
+
+![Direction alignment](results/experiment2.png)
+
+### 2b. Sparse concept recovery
+
+`experiment_2b_sparse_concepts.py`
+
+Tests a stricter question: for the **same residual activation**, do different fitted lenses select the same sparse token concepts?
+
+For each layer, the script constructs token-indexed directions `J_l^T w_v` and greedily reconstructs the residual with a non-negative sparse combination of `K=25` concept directions.
+
+The exact gradient-pursuit implementation used in the reference work is not public. This script therefore uses a full-vocabulary non-negative greedy pursuit with projected-gradient refitting. It should be treated as an approximate implementation rather than an exact reproduction of the unpublished sparse-decomposition algorithm.
+
+![Sparse concept recovery](results/experiment2b.png)
+
+### 3. Safety-relevant readout *(in progress)*
+
+`experiment_3_safety_readout.py`
+
+This script is intended to compare the three lenses on alignment-audit prompts using two simple readouts: deception-related tokens in the J-Lens top-k predictions, and an evaluation-awareness score based on configured token sets. Experiment 3 results are not included in the current repository.
+
+## Deception fitting corpus
+
+`build_deception_DeceptionBench.py` generates candidate responses from `PKU-Alignment/DeceptionBench` using Qwen3.5-4B. Generation uses fixed-seed sampling and is saved incrementally so longer runs can be resumed.
+
+The final 100-example fitting set used in this repository is included at:
+
+```text
+data/deception_prompts_100_jlens.json
+```
+
+The current script does **not** fully automate the final selection/construction of these 100 examples: `build_deception_prompts()` is still a placeholder. The committed JSON file should therefore be treated as the exact fitting corpus for the reported local deception lens. A future version should make this selection step fully reproducible.
 
 ## Repository structure
 
@@ -32,7 +79,6 @@ JLens-Probe/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── .gitignore
 ├── config.py
 ├── utils.py
 ├── main.py
@@ -43,183 +89,36 @@ JLens-Probe/
 ├── experiment_2b_sparse_concepts.py
 ├── experiment_3_safety_readout.py
 ├── data/
-│   └── ...                         # local fitting/evaluation data
+│   └── deception_prompts_100_jlens.json
 ├── Fitted-Jlens/
-│   ├── qwen35_4b_wikitext_n100.pt
-│   └── qwen35_4b_deception_n100.pt
-├── results/
-│   ├── experiment_1/
-│   ├── experiment_2/
-│   ├── experiment_2b/
-│   └── experiment_3/
-└── jacobian-lens/                  # local clone of the upstream J-Lens repo
+└── results/
+    ├── experiment1.png
+    ├── experiment2.png
+    ├── experiment2b.png
+    ├── experiment_1/
+    ├── experiment_2/
+    └── experiment_2b/
 ```
 
-Large fitted-lens checkpoints are ignored by default in `.gitignore`; if you want to publish them, use Git LFS or a model/data host rather than ordinary Git history.
-
-## Experimental setup
-
-### Model
-
-The current configuration uses:
-
-```text
-Qwen/Qwen3.5-4B
-```
-
-The configuration also contains a path entry for Qwen3.6-27B for future scaling experiments.
-
-### Lenses
-
-`config.py` defines the three lenses used throughout the comparisons:
-
-| Lens | Fit distribution | Number of fitting examples | Source |
-|---|---|---:|---|
-| `anthropic_1000` | WikiText | 1000 | pretrained `neuronpedia/jacobian-lens` checkpoint |
-| `wiki_100` | WikiText | 100 | locally fitted |
-| `deception_100` | deception-oriented corpus | 100 | locally fitted |
-
-The main comparisons are deliberately structured so that **Anthropic-1000 vs Wiki-100** estimates variation from fit size / refitting, while **Wiki-100 vs Deception-100** more directly probes distributional dependence at matched sample count.
-
-## Deception fitting corpus
-
-`build_deception_DeceptionBench.py` uses `PKU-Alignment/DeceptionBench` and Qwen3.5-4B to generate paired responses for each scenario:
-
-- a **baseline response** to the scenario's inner prompt;
-- a **scenario response** conditioned on the supplied system prompt, outer prompt, and response format.
-
-Generations are written incrementally to JSONL so long runs can be resumed. The selected deception-oriented examples used for fitting the local lens should be placed under `data/`.
-
-> **Note:** dataset construction/selection is a research choice. Keep the exact data file and selection procedure with any published results so the fitted lens is reproducible.
-
-## Experiment 1 — Intermediate concept recovery
-
-**File:** `experiment_1_intermediate_recovery.py`
-
-This experiment evaluates whether known intermediate concepts from J-Lens evaluation tasks become visible in the lens output. For each prompt and intermediate concept, it:
-
-1. determines the readout position immediately before the target continuation;
-2. applies each J-Lens at that position;
-3. computes the vocabulary rank of the known intermediate token at every fitted layer;
-4. records its best layer/rank; and
-5. summarizes recovery using `pass@k` for several values of `k`.
-
-The current evaluation is configured for the multihop dataset, with alternatives such as multilingual, order-of-operations, poetry, typo, and association tasks exposed in `config.py`.
-
-Outputs are saved under:
-
-```text
-results/experiment_1/
-```
-
-## Experiment 2 — Vocabulary-linked direction alignment
-
-**File:** `experiment_2_direction_alignment.py`
-
-For token `v` and layer `l`, the experiment defines the J-Lens direction in source residual space as
-
-```text
-d_(v,l) = J_l^T w_v
-```
-
-where `w_v` is the model's unembedding vector for token `v`.
-
-It compares the same token direction across the three fitted lenses using cosine similarity. Tokens are grouped into:
-
-- **generic concepts**;
-- **deception-related concepts**; and
-- **evaluation-awareness concepts**.
-
-The script saves detailed token-level results and layer-wise summaries as JSON/CSV under:
-
-```text
-results/experiment_2/
-```
-
-This experiment is useful for separating a general refitting/sample-size effect from a distribution-specific effect.
-
-## Experiment 2b — Sparse concept recovery
-
-**File:** `experiment_2b_sparse_concepts.py`
-
-This experiment asks a stricter question:
-
-> For the **same residual activation** `h_l`, do the three fitted J-Lenses identify the same sparse set of token concepts?
-
-For each layer, it constructs token-indexed directions `J_l^T w_v` and greedily reconstructs the residual using a non-negative sparse combination of `K=25` concept directions. The vocabulary search is performed over the full vocabulary at every pursuit step.
-
-The exact gradient-pursuit implementation used in the reference work is not released. This repository therefore uses an **approximate full-vocabulary non-negative greedy pursuit**, with projected-gradient refitting of the selected coefficients. Results from this experiment should not be described as an exact reproduction of the unpublished algorithm.
-
-Outputs are saved under:
-
-```text
-results/experiment_2b/
-```
-
-## Experiment 3 — Safety-relevant readout
-
-**File:** `experiment_3_safety_readout.py`
-
-This experiment applies all three lenses to safety/alignment-audit prompts and measures two simple readouts:
-
-1. **Deception-token top-k count:** counts configured deception-related tokens appearing in J-Lens top-k predictions across selected layers/positions.
-2. **Evaluation-awareness score:** mean log-probability of evaluation-awareness tokens minus mean log-probability of unrelated control tokens.
-
-The script searches a local `jacobian-lens/` checkout for configured audit datasets, including blackmail, prompt injection, fake-vulnerability/editing, silent-override, and self-issued-token style cases.
-
-The current analysis band is layers 18–28 for Qwen3.5-4B. This was chosen as a project-scale analysis region based on earlier intermediate-recovery behavior; it should **not** be interpreted as a universal or externally established “workspace” layer range.
-
-Outputs are saved under:
-
-```text
-results/experiment_3/
-```
-
-## Utilities
-
-`utils.py` contains shared functionality for:
-
-- loading Hugging Face models and wrapping them for J-Lens;
-- loading pretrained and locally fitted lenses;
-- device selection (CUDA, Apple MPS, or CPU);
-- finding single-token representations;
-- computing token ranks;
-- choosing readout positions;
-- applying J-Lens and ordinary Logit Lens; and
-- generating interactive J-Lens slices.
-
-`main.py` is a small exploratory script for comparing J-Lens and Logit Lens outputs on a single prompt. `fit_lens.py` is a minimal fitting example and is mainly useful as a starting point; the research experiments are the numbered scripts above.
+The fitted `.pt` checkpoints are not committed because of their size. Their expected paths are defined in `config.py`.
 
 ## Installation
 
-A GPU is strongly recommended for the full experiments.
+A GPU is recommended for the full experiments.
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
-cd JLens-Probe
-
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Install the upstream Jacobian Lens package according to its repository instructions. The experiment-3 dataset discovery currently expects a local checkout at:
+The experiments also require the upstream Jacobian Lens package. Install it following the instructions in the `anthropics/jacobian-lens` repository. Experiment 3 additionally expects a local checkout at `jacobian-lens/` because it searches that checkout for alignment-audit datasets.
 
-```text
-JLens-Probe/jacobian-lens/
-```
+You will also need access to the configured Hugging Face model and J-Lens checkpoint.
 
-You will also need access to the configured Hugging Face model/checkpoints.
+## Local fitted lenses
 
-## Adding local data and fitted lenses
-
-Place your project data under:
-
-```text
-data/
-```
-
-and the two locally fitted Qwen3.5-4B lenses at:
+Place the two locally fitted checkpoints at:
 
 ```text
 Fitted-Jlens/qwen35_4b_wikitext_n100.pt
@@ -228,76 +127,21 @@ Fitted-Jlens/qwen35_4b_deception_n100.pt
 
 If you use different filenames, update `LOCAL_LENS_FILES` in `config.py`.
 
-## Running the experiments
-
-Intermediate recovery:
+## Running
 
 ```bash
 python experiment_1_intermediate_recovery.py
-```
-
-Direction alignment:
-
-```bash
 python experiment_2_direction_alignment.py
-```
-
-Sparse concept recovery:
-
-```bash
 python experiment_2b_sparse_concepts.py
-```
-
-Safety readout:
-
-```bash
 python experiment_3_safety_readout.py
 ```
 
-The model, evaluation dataset, vocabulary groups, safety words, analysis layers, and local lens paths can be changed in `config.py`.
+Model choice, evaluation data, vocabulary groups, safety words, analysis layers, and local lens paths are configured in `config.py`.
 
-## Results and plots
+## Notes on interpretation
 
-Machine-readable outputs are written into the corresponding subdirectory of `results/`. Plots can be committed alongside the JSON/CSV outputs, for example:
+This repository is a small robustness study, not a claim that one fitting distribution is generally better than another. The experiments currently use one model, small local fitting sets, and limited evaluation tasks. The sparse-decomposition experiment is approximate, and the deception-corpus selection step is not yet fully automated. Results should be interpreted with those limitations in mind.
 
-```text
-results/
-├── experiment_1/
-│   ├── multihop_debug_results.json
-│   └── intermediate_recovery.png
-├── experiment_2/
-│   ├── direction_alignment_detailed.json
-│   ├── direction_alignment_summary.json
-│   ├── direction_alignment_summary.csv
-│   └── direction_alignment_by_layer.png
-├── experiment_2b/
-│   ├── ...
-│   └── sparse_concept_overlap.png
-└── experiment_3/
-    ├── ...
-    └── safety_readout.png
-```
+## License and upstream work
 
-For an application-facing repository, adding a small number of plots that communicate the central findings is more useful than committing every diagnostic figure. Good candidates are: (1) layer-wise direction alignment for the three lens pairs, (2) intermediate recovery/pass@k across lenses, and (3) a compact safety-readout comparison if Experiment 3 is complete.
-
-## Interpretation and limitations
-
-This repository is an exploratory robustness study rather than a claim that a particular lens is “correct.” Important limitations include:
-
-- only one primary model is currently evaluated;
-- the locally fitted lenses use relatively small fitting corpora;
-- the deception corpus is constructed/selected and may encode dataset-specific properties;
-- vocabulary-linked concepts depend on tokenizer granularity;
-- sparse recovery uses an approximate implementation because the reference gradient-pursuit code is unavailable;
-- safety readouts based on hand-selected vocabularies are probes, not definitive measures of deception or evaluation awareness; and
-- observed differences between lenses do not by themselves establish a causal effect of the fitting distribution.
-
-Natural next steps are to repeat the study across model scales, fitting-set sizes and random seeds; use held-out safety tasks; quantify uncertainty; test robustness to concept vocabulary choices; and add causal interventions where possible.
-
-## Status
-
-**Research prototype / work in progress.** The repository is intended to make the experimental logic and current results inspectable and reproducible while the project is still being developed.
-
-## Acknowledgements
-
-This project builds on the Jacobian Lens implementation and pretrained lens checkpoints. Please cite the original Jacobian Lens work and upstream repository when using or extending this code, and follow the licenses/terms of the underlying model and datasets.
+This repository is released under the MIT License. The Jacobian Lens implementation used by the experiments comes from the upstream `anthropics/jacobian-lens` project and is subject to its own license. Model weights, datasets, and downloaded checkpoints remain subject to their respective terms.

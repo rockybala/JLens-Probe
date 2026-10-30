@@ -8,7 +8,7 @@ For token v and layer l, the J-Lens direction in the source residual space is
 where w_v is the model's LM-head / unembedding vector for token v.
 
 We compare the same token direction across fitted lenses with cosine similarity.
-The important baseline is Anthropic-1000 vs WikiText-100; this tells us how much
+The important baseline is WikiText-1000 vs WikiText-100; this tells us how much
 variation to expect from fitting on fewer samples. We then compare that with
 WikiText-100 vs Deception-100.
 """
@@ -110,8 +110,8 @@ def main():
     print(f"Resolved {len(token_specs)} single-token analysis words.")
 
     lens_pairs = [
-        ("anthropic_1000", "wiki_100"),
-        ("anthropic_1000", "deception_100"),
+        ("wikitext_1000", "wiki_100"),
+        ("wikitext_1000", "deception_100"),
         ("wiki_100", "deception_100"),
     ]
 

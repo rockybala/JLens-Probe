@@ -57,8 +57,8 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "jacobian-lens" / "data" / "evaluations"
 RESULT_DIR = ROOT / "results" / "experiment_2b"
 
-# Keep this deliberately small/clean for the first run.
-# Set to None after the pilot if you want the complete Experiment-1 dataset.
+# Limit the default run to 10 examples because full-vocabulary pursuit is expensive.
+# Set to None to use the complete Experiment-1 dataset.
 N_EXAMPLES = 10
 
 # The paper uses K=25 for sparse decompositions of intermediate probes.

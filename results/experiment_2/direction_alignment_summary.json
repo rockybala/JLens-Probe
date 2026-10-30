@@ -2,7 +2,7 @@
   {
     "layer": 0,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.8055014371871948,
@@ -12,7 +12,7 @@
   {
     "layer": 0,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.8218771740794182,
@@ -22,7 +22,7 @@
   {
     "layer": 0,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.7914181815253364,
@@ -32,7 +32,7 @@
   {
     "layer": 0,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.7987383127212524,
@@ -42,7 +42,7 @@
   {
     "layer": 0,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.25293183094925353,
@@ -52,7 +52,7 @@
   {
     "layer": 0,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.22028547804802656,
@@ -62,7 +62,7 @@
   {
     "layer": 0,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.22219332721498278,
@@ -72,7 +72,7 @@
   {
     "layer": 0,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.2928812399506569,
@@ -122,7 +122,7 @@
   {
     "layer": 1,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.8593823975986905,
@@ -132,7 +132,7 @@
   {
     "layer": 1,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.8737299107015133,
@@ -142,7 +142,7 @@
   {
     "layer": 1,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.8431903123855591,
@@ -152,7 +152,7 @@
   {
     "layer": 1,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.8551908254623413,
@@ -162,7 +162,7 @@
   {
     "layer": 1,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.2719136565923691,
@@ -172,7 +172,7 @@
   {
     "layer": 1,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.2487192628905177,
@@ -182,7 +182,7 @@
   {
     "layer": 1,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.2352545509735743,
@@ -192,7 +192,7 @@
   {
     "layer": 1,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.3069657690823078,
@@ -242,7 +242,7 @@
   {
     "layer": 2,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9089160283406575,
@@ -252,7 +252,7 @@
   {
     "layer": 2,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9217176884412766,
@@ -262,7 +262,7 @@
   {
     "layer": 2,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.8955263296763102,
@@ -272,7 +272,7 @@
   {
     "layer": 2,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9047000646591187,
@@ -282,7 +282,7 @@
   {
     "layer": 2,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.341616658700837,
@@ -292,7 +292,7 @@
   {
     "layer": 2,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.31446813605725765,
@@ -302,7 +302,7 @@
   {
     "layer": 2,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.30408302115069497,
@@ -312,7 +312,7 @@
   {
     "layer": 2,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.38022561371326447,
@@ -362,7 +362,7 @@
   {
     "layer": 3,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9370693643887837,
@@ -372,7 +372,7 @@
   {
     "layer": 3,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9433414563536644,
@@ -382,7 +382,7 @@
   {
     "layer": 3,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9281152950392829,
@@ -392,7 +392,7 @@
   {
     "layer": 3,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9360810220241547,
@@ -402,7 +402,7 @@
   {
     "layer": 3,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.40724140637450745,
@@ -412,7 +412,7 @@
   {
     "layer": 3,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.3684354806318879,
@@ -422,7 +422,7 @@
   {
     "layer": 3,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.3672883212566376,
@@ -432,7 +432,7 @@
   {
     "layer": 3,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.4562650352716446,
@@ -482,7 +482,7 @@
   {
     "layer": 4,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9551320672035217,
@@ -492,7 +492,7 @@
   {
     "layer": 4,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9590486697852612,
@@ -502,7 +502,7 @@
   {
     "layer": 4,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.949239558643765,
@@ -512,7 +512,7 @@
   {
     "layer": 4,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9546504139900207,
@@ -522,7 +522,7 @@
   {
     "layer": 4,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.45345989333258735,
@@ -532,7 +532,7 @@
   {
     "layer": 4,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.4188863094896078,
@@ -542,7 +542,7 @@
   {
     "layer": 4,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.41731761561499703,
@@ -552,7 +552,7 @@
   {
     "layer": 4,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.4973827853798866,
@@ -602,7 +602,7 @@
   {
     "layer": 5,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9652055925793118,
@@ -612,7 +612,7 @@
   {
     "layer": 5,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9688591584563255,
@@ -622,7 +622,7 @@
   {
     "layer": 5,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9616289205021329,
@@ -632,7 +632,7 @@
   {
     "layer": 5,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9638922423124313,
@@ -642,7 +642,7 @@
   {
     "layer": 5,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.5009744505087534,
@@ -652,7 +652,7 @@
   {
     "layer": 5,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.47377306036651134,
@@ -662,7 +662,7 @@
   {
     "layer": 5,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.4778120782640245,
@@ -672,7 +672,7 @@
   {
     "layer": 5,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.5331586301326752,
@@ -722,7 +722,7 @@
   {
     "layer": 6,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9651277939478556,
@@ -732,7 +732,7 @@
   {
     "layer": 6,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9666222557425499,
@@ -742,7 +742,7 @@
   {
     "layer": 6,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9626847174432542,
@@ -752,7 +752,7 @@
   {
     "layer": 6,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9650316089391708,
@@ -762,7 +762,7 @@
   {
     "layer": 6,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.48453661534521314,
@@ -772,7 +772,7 @@
   {
     "layer": 6,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.44658675603568554,
@@ -782,7 +782,7 @@
   {
     "layer": 6,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.44962822397549945,
@@ -792,7 +792,7 @@
   {
     "layer": 6,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.5306052789092064,
@@ -842,7 +842,7 @@
   {
     "layer": 7,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9664036406411065,
@@ -852,7 +852,7 @@
   {
     "layer": 7,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9672684781253338,
@@ -862,7 +862,7 @@
   {
     "layer": 7,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9632097548908658,
@@ -872,7 +872,7 @@
   {
     "layer": 7,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.967149019241333,
@@ -882,7 +882,7 @@
   {
     "layer": 7,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.4807738271024492,
@@ -892,7 +892,7 @@
   {
     "layer": 7,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.43695599026978016,
@@ -902,7 +902,7 @@
   {
     "layer": 7,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.45216813683509827,
@@ -912,7 +912,7 @@
   {
     "layer": 7,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.5287006571888924,
@@ -962,7 +962,7 @@
   {
     "layer": 8,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.970868006017473,
@@ -972,7 +972,7 @@
   {
     "layer": 8,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9703862518072128,
@@ -982,7 +982,7 @@
   {
     "layer": 8,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.967824273639255,
@@ -992,7 +992,7 @@
   {
     "layer": 8,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9726230889558792,
@@ -1002,7 +1002,7 @@
   {
     "layer": 8,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.48894015749295555,
@@ -1012,7 +1012,7 @@
   {
     "layer": 8,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.4403717275708914,
@@ -1022,7 +1022,7 @@
   {
     "layer": 8,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.44954994652006364,
@@ -1032,7 +1032,7 @@
   {
     "layer": 8,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.5455204963684082,
@@ -1082,7 +1082,7 @@
   {
     "layer": 9,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9757040646341112,
@@ -1092,7 +1092,7 @@
   {
     "layer": 9,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9750195108354092,
@@ -1102,7 +1102,7 @@
   {
     "layer": 9,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9735682540469699,
@@ -1112,7 +1112,7 @@
   {
     "layer": 9,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9772128224372864,
@@ -1122,7 +1122,7 @@
   {
     "layer": 9,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.5248175568050808,
@@ -1132,7 +1132,7 @@
   {
     "layer": 9,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.4670556876808405,
@@ -1142,7 +1142,7 @@
   {
     "layer": 9,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.47945088479253983,
@@ -1152,7 +1152,7 @@
   {
     "layer": 9,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.5914420545101166,
@@ -1202,7 +1202,7 @@
   {
     "layer": 10,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9793271462122599,
@@ -1212,7 +1212,7 @@
   {
     "layer": 10,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9787015691399574,
@@ -1222,7 +1222,7 @@
   {
     "layer": 10,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9784151117006937,
@@ -1232,7 +1232,7 @@
   {
     "layer": 10,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9802380234003067,
@@ -1242,7 +1242,7 @@
   {
     "layer": 10,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.5530632879998949,
@@ -1252,7 +1252,7 @@
   {
     "layer": 10,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.4937719367444515,
@@ -1262,7 +1262,7 @@
   {
     "layer": 10,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.5182292130258348,
@@ -1272,7 +1272,7 @@
   {
     "layer": 10,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.6161717027425766,
@@ -1322,7 +1322,7 @@
   {
     "layer": 11,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9811885211202833,
@@ -1332,7 +1332,7 @@
   {
     "layer": 11,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9810385443270206,
@@ -1342,7 +1342,7 @@
   {
     "layer": 11,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9805305467711555,
@@ -1352,7 +1352,7 @@
   {
     "layer": 11,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.981604591012001,
@@ -1362,7 +1362,7 @@
   {
     "layer": 11,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.5729762236277263,
@@ -1372,7 +1372,7 @@
   {
     "layer": 11,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.5158782582730055,
@@ -1382,7 +1382,7 @@
   {
     "layer": 11,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.5463705095979903,
@@ -1392,7 +1392,7 @@
   {
     "layer": 11,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.630627167224884,
@@ -1442,7 +1442,7 @@
   {
     "layer": 12,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9822442558076646,
@@ -1452,7 +1452,7 @@
   {
     "layer": 12,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.982388898730278,
@@ -1462,7 +1462,7 @@
   {
     "layer": 12,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9824118746651543,
@@ -1472,7 +1472,7 @@
   {
     "layer": 12,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9820531129837036,
@@ -1482,7 +1482,7 @@
   {
     "layer": 12,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.5987447811497583,
@@ -1492,7 +1492,7 @@
   {
     "layer": 12,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.5383102558553219,
@@ -1502,7 +1502,7 @@
   {
     "layer": 12,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.5721938113371531,
@@ -1512,7 +1512,7 @@
   {
     "layer": 12,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.6590403378009796,
@@ -1562,7 +1562,7 @@
   {
     "layer": 13,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9837239901224772,
@@ -1572,7 +1572,7 @@
   {
     "layer": 13,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9839898310601711,
@@ -1582,7 +1582,7 @@
   {
     "layer": 13,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9836859239472283,
@@ -1592,7 +1592,7 @@
   {
     "layer": 13,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.983528447151184,
@@ -1602,7 +1602,7 @@
   {
     "layer": 13,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.6014021019140879,
@@ -1612,7 +1612,7 @@
   {
     "layer": 13,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.5495558232069016,
@@ -1622,7 +1622,7 @@
   {
     "layer": 13,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.5875610609849294,
@@ -1632,7 +1632,7 @@
   {
     "layer": 13,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.6491075932979584,
@@ -1682,7 +1682,7 @@
   {
     "layer": 14,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9853431979815165,
@@ -1692,7 +1692,7 @@
   {
     "layer": 14,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9856496378779411,
@@ -1702,7 +1702,7 @@
   {
     "layer": 14,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9852731029192606,
@@ -1712,7 +1712,7 @@
   {
     "layer": 14,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.985129588842392,
@@ -1722,7 +1722,7 @@
   {
     "layer": 14,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.6301225933763716,
@@ -1732,7 +1732,7 @@
   {
     "layer": 14,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.5772855635732412,
@@ -1742,7 +1742,7 @@
   {
     "layer": 14,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.6255944106313918,
@@ -1752,7 +1752,7 @@
   {
     "layer": 14,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.6744298994541168,
@@ -1802,7 +1802,7 @@
   {
     "layer": 15,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.986443903711107,
@@ -1812,7 +1812,7 @@
   {
     "layer": 15,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9867866784334183,
@@ -1822,7 +1822,7 @@
   {
     "layer": 15,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.98629406425688,
@@ -1832,7 +1832,7 @@
   {
     "layer": 15,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9862371116876603,
@@ -1842,7 +1842,7 @@
   {
     "layer": 15,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.6368841780556573,
@@ -1852,7 +1852,7 @@
   {
     "layer": 15,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.593303207308054,
@@ -1862,7 +1862,7 @@
   {
     "layer": 15,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.6364289323488871,
@@ -1872,7 +1872,7 @@
   {
     "layer": 15,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.6719538152217865,
@@ -1922,7 +1922,7 @@
   {
     "layer": 16,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9880704959233602,
@@ -1932,7 +1932,7 @@
   {
     "layer": 16,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.988350871950388,
@@ -1942,7 +1942,7 @@
   {
     "layer": 16,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9879309005207486,
@@ -1952,7 +1952,7 @@
   {
     "layer": 16,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9879090130329132,
@@ -1962,7 +1962,7 @@
   {
     "layer": 16,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.6818597912788391,
@@ -1972,7 +1972,7 @@
   {
     "layer": 16,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.643136989325285,
@@ -1982,7 +1982,7 @@
   {
     "layer": 16,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.6849772797690498,
@@ -1992,7 +1992,7 @@
   {
     "layer": 16,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.7114351630210877,
@@ -2042,7 +2042,7 @@
   {
     "layer": 17,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9898610962761774,
@@ -2052,7 +2052,7 @@
   {
     "layer": 17,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9900643341243267,
@@ -2062,7 +2062,7 @@
   {
     "layer": 17,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9899038804901971,
@@ -2072,7 +2072,7 @@
   {
     "layer": 17,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9896792531013489,
@@ -2082,7 +2082,7 @@
   {
     "layer": 17,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.723496683438619,
@@ -2092,7 +2092,7 @@
   {
     "layer": 17,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.6914740018546581,
@@ -2102,7 +2102,7 @@
   {
     "layer": 17,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.7295998003747728,
@@ -2112,7 +2112,7 @@
   {
     "layer": 17,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.7463684260845185,
@@ -2162,7 +2162,7 @@
   {
     "layer": 18,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9913046320279439,
@@ -2172,7 +2172,7 @@
   {
     "layer": 18,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9914314784109592,
@@ -2182,7 +2182,7 @@
   {
     "layer": 18,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9913901090621948,
@@ -2192,7 +2192,7 @@
   {
     "layer": 18,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9911646902561188,
@@ -2202,7 +2202,7 @@
   {
     "layer": 18,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.7652392201953464,
@@ -2212,7 +2212,7 @@
   {
     "layer": 18,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.7312504164874554,
@@ -2222,7 +2222,7 @@
   {
     "layer": 18,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.7675868471463522,
@@ -2232,7 +2232,7 @@
   {
     "layer": 18,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.7913738310337066,
@@ -2282,7 +2282,7 @@
   {
     "layer": 19,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9922527697351243,
@@ -2292,7 +2292,7 @@
   {
     "layer": 19,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9926188662648201,
@@ -2302,7 +2302,7 @@
   {
     "layer": 19,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9924580587281121,
@@ -2312,7 +2312,7 @@
   {
     "layer": 19,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9918675124645233,
@@ -2322,7 +2322,7 @@
   {
     "layer": 19,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.7946536911858453,
@@ -2332,7 +2332,7 @@
   {
     "layer": 19,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.768075805157423,
@@ -2342,7 +2342,7 @@
   {
     "layer": 19,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.7944912711779276,
@@ -2352,7 +2352,7 @@
   {
     "layer": 19,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.815989089012146,
@@ -2402,7 +2402,7 @@
   {
     "layer": 20,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9937767876519097,
@@ -2412,7 +2412,7 @@
   {
     "layer": 20,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9940612241625786,
@@ -2422,7 +2422,7 @@
   {
     "layer": 20,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.994145757622189,
@@ -2432,7 +2432,7 @@
   {
     "layer": 20,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.993383201956749,
@@ -2442,7 +2442,7 @@
   {
     "layer": 20,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.828819931877984,
@@ -2452,7 +2452,7 @@
   {
     "layer": 20,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.8048765771090984,
@@ -2462,7 +2462,7 @@
   {
     "layer": 20,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.8308737675348917,
@@ -2472,7 +2472,7 @@
   {
     "layer": 20,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.8470503896474838,
@@ -2522,7 +2522,7 @@
   {
     "layer": 21,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9945730633205838,
@@ -2532,7 +2532,7 @@
   {
     "layer": 21,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9948378428816795,
@@ -2542,7 +2542,7 @@
   {
     "layer": 21,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9949896269374423,
@@ -2552,7 +2552,7 @@
   {
     "layer": 21,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9941737860441208,
@@ -2562,7 +2562,7 @@
   {
     "layer": 21,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.8526576028929816,
@@ -2572,7 +2572,7 @@
   {
     "layer": 21,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.8324622623622417,
@@ -2582,7 +2582,7 @@
   {
     "layer": 21,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.8517564204004076,
@@ -2592,7 +2592,7 @@
   {
     "layer": 21,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.8692194074392319,
@@ -2642,7 +2642,7 @@
   {
     "layer": 22,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9954530133141412,
@@ -2652,7 +2652,7 @@
   {
     "layer": 22,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9956436790525913,
@@ -2662,7 +2662,7 @@
   {
     "layer": 22,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9958146082030402,
@@ -2672,7 +2672,7 @@
   {
     "layer": 22,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9951377630233764,
@@ -2682,7 +2682,7 @@
   {
     "layer": 22,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.8778245555029975,
@@ -2692,7 +2692,7 @@
   {
     "layer": 22,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.8586576543748379,
@@ -2702,7 +2702,7 @@
   {
     "layer": 22,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.8771744238005744,
@@ -2712,7 +2712,7 @@
   {
     "layer": 22,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.8934506356716156,
@@ -2762,7 +2762,7 @@
   {
     "layer": 23,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9961515638563369,
@@ -2772,7 +2772,7 @@
   {
     "layer": 23,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.996316459029913,
@@ -2782,7 +2782,7 @@
   {
     "layer": 23,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9964076280593872,
@@ -2792,7 +2792,7 @@
   {
     "layer": 23,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9959044188261033,
@@ -2802,7 +2802,7 @@
   {
     "layer": 23,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9032006753815545,
@@ -2812,7 +2812,7 @@
   {
     "layer": 23,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.8899953961372375,
@@ -2822,7 +2822,7 @@
   {
     "layer": 23,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.8981831007533603,
@@ -2832,7 +2832,7 @@
   {
     "layer": 23,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9160228073596954,
@@ -2882,7 +2882,7 @@
   {
     "layer": 24,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9971659448411729,
@@ -2892,7 +2892,7 @@
   {
     "layer": 24,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9972439222037792,
@@ -2902,7 +2902,7 @@
   {
     "layer": 24,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9973489907052782,
@@ -2912,7 +2912,7 @@
   {
     "layer": 24,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9970211923122406,
@@ -2922,7 +2922,7 @@
   {
     "layer": 24,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9229998972680834,
@@ -2932,7 +2932,7 @@
   {
     "layer": 24,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9109590835869312,
@@ -2942,7 +2942,7 @@
   {
     "layer": 24,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9168341954549154,
@@ -2952,7 +2952,7 @@
   {
     "layer": 24,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9354071140289306,
@@ -3002,7 +3002,7 @@
   {
     "layer": 25,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9978839794794718,
@@ -3012,7 +3012,7 @@
   {
     "layer": 25,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.997882790863514,
@@ -3022,7 +3022,7 @@
   {
     "layer": 25,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.998032788435618,
@@ -3032,7 +3032,7 @@
   {
     "layer": 25,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9978179663419724,
@@ -3042,7 +3042,7 @@
   {
     "layer": 25,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9359499467743768,
@@ -3052,7 +3052,7 @@
   {
     "layer": 25,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9252907894551754,
@@ -3062,7 +3062,7 @@
   {
     "layer": 25,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9315153161684672,
@@ -3072,7 +3072,7 @@
   {
     "layer": 25,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9464728564023972,
@@ -3122,7 +3122,7 @@
   {
     "layer": 26,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9983966668446859,
@@ -3132,7 +3132,7 @@
   {
     "layer": 26,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9983879737555981,
@@ -3142,7 +3142,7 @@
   {
     "layer": 26,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9985244737731086,
@@ -3152,7 +3152,7 @@
   {
     "layer": 26,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9983461081981659,
@@ -3162,7 +3162,7 @@
   {
     "layer": 26,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9450478249126011,
@@ -3172,7 +3172,7 @@
   {
     "layer": 26,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.935895036906004,
@@ -3182,7 +3182,7 @@
   {
     "layer": 26,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9395081798235575,
@@ -3192,7 +3192,7 @@
   {
     "layer": 26,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9548628956079483,
@@ -3242,7 +3242,7 @@
   {
     "layer": 27,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9988163007630242,
@@ -3252,7 +3252,7 @@
   {
     "layer": 27,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9987976141273975,
@@ -3262,7 +3262,7 @@
   {
     "layer": 27,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9989365206824409,
@@ -3272,7 +3272,7 @@
   {
     "layer": 27,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9987771511077881,
@@ -3282,7 +3282,7 @@
   {
     "layer": 27,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9571323023902045,
@@ -3292,7 +3292,7 @@
   {
     "layer": 27,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9494741149246693,
@@ -3302,7 +3302,7 @@
   {
     "layer": 27,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9546280569500394,
@@ -3312,7 +3312,7 @@
   {
     "layer": 27,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9643857628107071,
@@ -3362,7 +3362,7 @@
   {
     "layer": 28,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9990991155306498,
@@ -3372,7 +3372,7 @@
   {
     "layer": 28,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9991126619279385,
@@ -3382,7 +3382,7 @@
   {
     "layer": 28,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9991741312874688,
@@ -3392,7 +3392,7 @@
   {
     "layer": 28,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9990545213222504,
@@ -3402,7 +3402,7 @@
   {
     "layer": 28,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9650224102867975,
@@ -3412,7 +3412,7 @@
   {
     "layer": 28,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9605688154697418,
@@ -3422,7 +3422,7 @@
   {
     "layer": 28,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9622726307974921,
@@ -3432,7 +3432,7 @@
   {
     "layer": 28,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9698226869106292,
@@ -3482,7 +3482,7 @@
   {
     "layer": 29,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9993459343910217,
@@ -3492,7 +3492,7 @@
   {
     "layer": 29,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9993567876517773,
@@ -3502,7 +3502,7 @@
   {
     "layer": 29,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9994229939248827,
@@ -3512,7 +3512,7 @@
   {
     "layer": 29,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9993025749921799,
@@ -3522,7 +3522,7 @@
   {
     "layer": 29,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9694109863705105,
@@ -3532,7 +3532,7 @@
   {
     "layer": 29,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9653109274804592,
@@ -3542,7 +3542,7 @@
   {
     "layer": 29,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9676322870784335,
@@ -3552,7 +3552,7 @@
   {
     "layer": 29,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9734914481639863,
@@ -3602,7 +3602,7 @@
   {
     "layer": 30,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 45,
     "mean_cosine": 0.9996562560399374,
@@ -3612,7 +3612,7 @@
   {
     "layer": 30,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 16,
     "mean_cosine": 0.9996490105986595,
@@ -3622,7 +3622,7 @@
   {
     "layer": 30,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 9,
     "mean_cosine": 0.9997062351968553,
@@ -3632,7 +3632,7 @@
   {
     "layer": 30,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "wiki_100",
     "n_tokens": 20,
     "mean_cosine": 0.9996395617723465,
@@ -3642,7 +3642,7 @@
   {
     "layer": 30,
     "group": "all",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 45,
     "mean_cosine": 0.9837470557954576,
@@ -3652,7 +3652,7 @@
   {
     "layer": 30,
     "group": "deception",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 16,
     "mean_cosine": 0.9823422878980637,
@@ -3662,7 +3662,7 @@
   {
     "layer": 30,
     "group": "eval_awareness",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 9,
     "mean_cosine": 0.9825946821106805,
@@ -3672,7 +3672,7 @@
   {
     "layer": 30,
     "group": "generic",
-    "lens_a": "anthropic_1000",
+    "lens_a": "wikitext_1000",
     "lens_b": "deception_100",
     "n_tokens": 20,
     "mean_cosine": 0.9853894382715225,

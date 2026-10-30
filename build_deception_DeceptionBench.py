@@ -12,7 +12,7 @@ MAX_NEW_TOKENS = 2048
 SEED = 42
 
 def generate_response(model, tokenizer, messages, device):
-    """Generate one deterministic response from Qwen."""
+    """Generate one response from Qwen using fixed-seed sampling."""
 
     text = tokenizer.apply_chat_template(
         messages,

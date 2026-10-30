@@ -106,8 +106,7 @@ EVAL_CONTROL_WORDS = [
 SAFETY_TOP_K = 10
 SAFETY_MAX_EXAMPLES_PER_DATASET = 10
 
-# Qwen3.5-4B has fitted source layers 0..30 in your lenses. This is an analysis
-# band chosen from the late-middle layers where Experiment 1 often recovered
-# intermediates; it is NOT claimed to be Anthropic's model-specific workspace
-# band. Set to None to use every fitted layer.
+# The Qwen3.5-4B lenses contain fitted source layers 0..30. This analysis
+# band covers late-middle layers where Experiment 1 often recovered
+# intermediates; it is not intended as a universal workspace layer range. Set to None to use every fitted layer.
 SAFETY_ANALYSIS_LAYERS = list(range(18, 29))

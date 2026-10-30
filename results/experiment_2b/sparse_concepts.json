@@ -9,7 +9,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 18162,
@@ -419,7 +419,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 18162,
@@ -829,7 +829,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20915,
@@ -1239,7 +1239,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20915,
@@ -1649,7 +1649,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20915,
@@ -2059,7 +2059,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20915,
@@ -2469,7 +2469,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20915,
@@ -2879,7 +2879,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 21678,
@@ -3289,7 +3289,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 21678,
@@ -3699,7 +3699,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 21678,
@@ -4109,7 +4109,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 21678,
@@ -4530,7 +4530,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -4940,7 +4940,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -5350,7 +5350,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 3992,
@@ -5760,7 +5760,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 3992,
@@ -6170,7 +6170,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6163,
@@ -6580,7 +6580,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6163,
@@ -6990,7 +6990,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 3992,
@@ -7400,7 +7400,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 40790,
@@ -7810,7 +7810,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 40790,
@@ -8220,7 +8220,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 40790,
@@ -8630,7 +8630,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 40790,
@@ -9051,7 +9051,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -9461,7 +9461,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2037,
@@ -9871,7 +9871,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -10281,7 +10281,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 1829,
@@ -10691,7 +10691,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -11101,7 +11101,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -11511,7 +11511,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -11921,7 +11921,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -12331,7 +12331,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -12741,7 +12741,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -13151,7 +13151,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6105,
@@ -13572,7 +13572,7 @@
     "readout_position": -1,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13,
@@ -13982,7 +13982,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13,
@@ -14392,7 +14392,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13,
@@ -14802,7 +14802,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -15212,7 +15212,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 5785,
@@ -15622,7 +15622,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 60041,
@@ -16032,7 +16032,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 60041,
@@ -16442,7 +16442,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13795,
@@ -16852,7 +16852,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13795,
@@ -17262,7 +17262,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13795,
@@ -17672,7 +17672,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 23,
@@ -18093,7 +18093,7 @@
     "readout_position": -1,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 10992,
@@ -18503,7 +18503,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13,
@@ -18913,7 +18913,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -19323,7 +19323,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -19733,7 +19733,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -20143,7 +20143,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -20553,7 +20553,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -20963,7 +20963,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 4078,
@@ -21373,7 +21373,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 73465,
@@ -21783,7 +21783,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20,
@@ -22193,7 +22193,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 20,
@@ -22614,7 +22614,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -23024,7 +23024,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -23434,7 +23434,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -23844,7 +23844,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -24254,7 +24254,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -24664,7 +24664,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -25074,7 +25074,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -25484,7 +25484,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -25894,7 +25894,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -26304,7 +26304,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -26714,7 +26714,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 13229,
@@ -27135,7 +27135,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -27545,7 +27545,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -27955,7 +27955,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -28365,7 +28365,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -28775,7 +28775,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2512,
@@ -29185,7 +29185,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -29595,7 +29595,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2512,
@@ -30005,7 +30005,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -30415,7 +30415,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -30825,7 +30825,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -31235,7 +31235,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 12050,
@@ -31656,7 +31656,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -32066,7 +32066,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -32476,7 +32476,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -32886,7 +32886,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -33296,7 +33296,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -33706,7 +33706,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -34116,7 +34116,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -34526,7 +34526,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -34936,7 +34936,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -35346,7 +35346,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -35756,7 +35756,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 81743,
@@ -36177,7 +36177,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -36587,7 +36587,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -36997,7 +36997,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -37407,7 +37407,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 2062,
@@ -37817,7 +37817,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 36044,
@@ -38227,7 +38227,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 19535,
@@ -38637,7 +38637,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 19535,
@@ -39047,7 +39047,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 36044,
@@ -39457,7 +39457,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 19535,
@@ -39867,7 +39867,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 19535,
@@ -40277,7 +40277,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 19535,
@@ -40698,7 +40698,7 @@
     "readout_position": -2,
     "layers": {
       "18": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -41108,7 +41108,7 @@
         }
       },
       "19": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -41518,7 +41518,7 @@
         }
       },
       "20": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -41928,7 +41928,7 @@
         }
       },
       "21": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -42338,7 +42338,7 @@
         }
       },
       "22": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6889,
@@ -42748,7 +42748,7 @@
         }
       },
       "23": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6414,
@@ -43158,7 +43158,7 @@
         }
       },
       "24": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6414,
@@ -43568,7 +43568,7 @@
         }
       },
       "25": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 49351,
@@ -43978,7 +43978,7 @@
         }
       },
       "26": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6414,
@@ -44388,7 +44388,7 @@
         }
       },
       "27": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 30994,
@@ -44798,7 +44798,7 @@
         }
       },
       "28": {
-        "anthropic_1000": {
+        "wikitext_1000": {
           "concepts": [
             {
               "token_id": 6414,
